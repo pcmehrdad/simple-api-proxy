@@ -1,5 +1,6 @@
 services:
   pi-proxy:
+    image: 'ghcr.io/pcmehrdad/simple-api-proxy'
     build:
       context: .
       dockerfile: Dockerfile
