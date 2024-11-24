@@ -7,8 +7,8 @@ on:
 
 jobs:
   build-and-push:
-    # runs-on: ubuntu-latest
-    runs-on: [self-hosted, personal,ubuntu-latest]
+    runs-on: ubuntu-latest
+    # runs-on: [self-hosted, personal,ubuntu-latest]
     permissions:
       packages: write
       contents: read
