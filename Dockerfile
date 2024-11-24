@@ -33,7 +33,7 @@ WORKDIR /app
 # Copy binary and configuration
 COPY --from=builder /app/api-proxy .
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
-COPY config.json .
+COPY config.json.example ./config.json
 
 # Expose port
 EXPOSE 3003
