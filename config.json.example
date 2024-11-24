@@ -1,0 +1,17 @@
+{
+    "domain": "https://api.example.com/",
+    "PROXY_TYPE": "header",
+    "KEY": "X-Api-Key",
+    "VALUES": [
+        {"example-key-1": 10},
+        {"example-key-2": 8}
+    ],
+    "DIRECT_ACCESS": true,
+    "DIRECT_ACCESS_TPS": 10,
+    "PROXY_TPS": 5,
+    "PROXIES": [
+        "socks5://user:pass@proxy1.example.com:1080",
+        "socks5h://user:pass@proxy2.example.com:1080",
+        "http://user:pass@proxy3.example.com:8080"
+    ]
+}

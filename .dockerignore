@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+.github
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Go build and test files
+*.test
+*.out
+/bin/
+/dist/
+
+# Project specific
+README.md
+Makefile
+docker-compose.yml
+.env
+*.log
+
+# Development tools and temporary files
+.DS_Store
+*.tmp
+tmp/
+temp/
+/test/
+/docs/
+
+# Dependencies
+/vendor/
+node_modules/
+
+# Debug files
+debug
+*.debug
+debug.test
